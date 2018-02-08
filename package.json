@@ -1,0 +1,15 @@
+{
+  "name": "matto",
+  "version": "1.0.0",
+  "description": "A Discord Bot, created for RPs, on the Game DBZ:FS. (Creator, Okirin.)",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Okirin",
+  "license": "ISC"
+}
