@@ -3,9 +3,7 @@
 
     const PREFIX = "r!"
     
-
     var bot = new Discord.Client();
-    var client = new Discord.Client(); 
 
     bot.on("ready", function() {
     console.log("Ready, boy.");
@@ -85,6 +83,6 @@
 
     });
 
-    client.login(process.env.BOT_TOKEN);
+    bot.login(process.env.BOT_TOKEN);
 
 
