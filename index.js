@@ -2,7 +2,6 @@
     const Discord = require("discord.js");
 
     const PREFIX = "r!"
-    const TOKEN = "NDExMDk0Nzg3OTUzNzg2ODgw.DV3gTA.uge7bfXWucZ-GlwErcLTQSfalrc";
     
     var bot = new Discord.Client();
 
@@ -84,6 +83,6 @@
 
     });
 
-    bot.login(TOKEN);
+    bot.login(process.env.BOT_TOKEN);
 
 
