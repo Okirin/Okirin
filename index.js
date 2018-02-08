@@ -3,20 +3,20 @@
 
     const PREFIX = "r!"
     
-    var bot = new Discord.Client();
+    var client = new Discord.Client();
 
-    bot.on("ready", function() {
+    client.on("ready", function() {
     console.log("Ready, boy.");
     
-    bot.user.setActivity("r!help");
+    client.user.setActivity("r!help");
 
     });
 
     
 
-    bot.on("message", function(message) {
+    client.on("message", function(message) {
         
-        if (message.author.equals(bot.user)) return;
+        if (message.author.equals(client.user)) return;
 
         if (message.content == "yo.") {
             message.channel.sendMessage("Yo.")
@@ -83,6 +83,6 @@
 
     });
 
-    bot.login(process.env.BOT_TOKEN);
+    client.login(process.env.BOT_TOKEN);
 
 
