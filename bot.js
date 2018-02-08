@@ -86,6 +86,6 @@
 
     });
 
-    client.login("NDExMDk0Nzg3OTUzNzg2ODgw.DV2ynA.Z124iGNOekCQO_xgQyYGySsb1C8");
+    client.login(process.env.BOT_TOKEN);
 
 
